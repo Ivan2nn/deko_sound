@@ -1,0 +1,10 @@
+Images/
+NewMimiTest.csproj
+NewMimiTest.csproj.user
+Properties/
+Web.Debug.config
+Web.Release.config
+Web.config
+bin/
+obj/
+packages.config
