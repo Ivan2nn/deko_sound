@@ -17,18 +17,21 @@
         return loadImageCache[imageSrc];
     }
 
-    loadImage("../Images/galaxy.jpg").then(function (url) {
-        $("#yritis").attr("src", "../Images/galaxy.jpg");
+    loadImage("Images/yritys_1280x850.jpg").then(function (url) {
+        $("#yritys").attr("src", "Images/yritys_1280x850.jpg");
         imageObj = new Image();
         imagesArray = new Array();
-        imagesArray[0] = "../Images/demo1.jpg";
-        imagesArray[1] = "../Images/bg_parallax.jpg";
+        imagesArray[0,1] = "Images/palvelut_1280x850.jpg";
+		imagesArray[2] = "Images/referenssit_1280x850.jpg";
+		imagesArray[3] = "Images/yhteys_1280x850.jpg";
 
         for (var i = 0; i < 2; i++) {
             imageObj.src = imagesArray[i];
         };
 
-        $("#palvelut").attr("src", "../Images/demo1.jpg");
+        $("#palvelut, #palvelut2").attr("src", "Images/palvelut_1280x850.jpg");
+		$("#referenssit").attr("src", "Images/referenssit_1280x850.jpg");
+		$("#yhteys").attr("src", "Images/yhteys_1280x850.jpg");
 
         $('.sideBar a').click(function () {
             $.scrollTo(this.hash, 1500, { easing: 'swing' });

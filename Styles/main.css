@@ -1,28 +1,91 @@
-﻿
+﻿/*Basic styles*/
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight:700;
+	font-size:1.250em;
+	text-transform:uppercase;
+	margin-bottom:30px;
+}
+
+p { 
+	font-family: 'Oxygen', sans-serif;
+	font-weight:300;
+	font-size:1em;
+	line-height:1em;
+	margin-bottom:30px;
+}
+
+.clearfix { clear:both; height:0;}
+
+.notification {
+	font-size:1em;
+	}
+
+.notification2 {
+	text-align:center;
+	font-weight:700;
+	}
+	
+.first {
+	margin: 50px 0 10px 0;
+	}
+
+#fb-box {
+	width:200px;
+	top:480px;
+	left:180px;
+	position:fixed;
+	z-index : 100;
+	background-color:#fff;
+	}
+	
 .sideBar {
     top: 120px;
     left: 180px;
     background-color: rgb(0,186,242);
-    width: 220px;
+    width: 190px;
     position: fixed;
     z-index : 100;
-    padding: 5px;
+    padding: 5px 5px 10px 5px;
 }
-
+	.sideBar .logo {
+		background:url(../Images/logo.jpg) no-repeat;
+		height:134px;
+		width:148px;
+		margin: 0 auto;
+		padding-bottom:5px;
+		}
+		
+	.sideBar .logo a {
+		display:block;
+		cursor:pointer;
+		height:134px;
+		width:148px;
+		text-decoration:none;	
+		}
+		
     .sideBar ul {
         list-style: none;
         text-align: center;
         margin : 0;
         padding: 0;
     }
+		.sideBar ul li {
+			padding:7px 0;
+			cursor:pointer;
+			}
 
         .sideBar ul li:hover {
             background-color: black;
         }
 
         .sideBar ul li a {
+			font-size:1.125em;
             text-decoration: none;
             color: white;
+			font-family: 'Oxygen', sans-serif;
+			font-weight:300;
         }
 
         .sideBar ul li a:visited {
@@ -38,6 +101,14 @@
     padding: 0;
     position: relative;
 }
+
+.mainSection ul li {
+	list-style:decimal;
+	font-family: 'Oxygen', sans-serif;
+	font-weight:300;
+	font-size:1em;
+	
+	}
 
 .fakeBackGround {
     border : none;
@@ -60,11 +131,36 @@
 .info {
     color: white;
     position: absolute;
-    width: 460px;
+    width: 645px;
     top: 120px;
     left: 500px;
-    padding: 10px;
+    padding: 20px;
 }
+
+.reference:first-child {
+	margin-bottom:40px;
+	}
+
+.reference:first-child  .text {
+	margin-right:15px;
+	}
+
+.reference:first-child  .image {
+	margin-right:0;
+	}
+
+.reference .text {
+	width:340px;
+	float:left;
+	}
+
+.reference .image {
+	width:290px;
+	float:left;
+	height:250px;
+	background-color:#fff;
+	margin-right:15px;
+	}
 
 @media only screen and (min-width : 320px) and (max-width : 479px) {
     
