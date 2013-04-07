@@ -161,7 +161,43 @@ p {
 	background-color:#fff;
 	margin-right:15px;
 	}
+	
+#section5 .map, #section5 .contact {
+	float:left;
+	}
+	
+#section5 .map {
+	width:290px;
+	margin-right:7px;
+	}
 
+#section5 .contact {
+	width:345px;
+	}
+
+#section5 .contact h1 {
+	margin: 0 0 10px 0;
+	font-size:1.125em;
+	}
+	
+#section5 .contact .info-row {
+	margin-bottom: 10px;
+	}
+	
+#section5 .contact .info-row img {
+	float:left;
+	  margin-right: 10px;
+	}
+	
+#section5 .contact .info-row .info-text {
+	float:left;
+	width:205px;
+	}
+
+#section5 .contact .info-row .info-text p {
+	padding-top:0;
+	}
+	
 @media only screen and (min-width : 320px) and (max-width : 479px) {
     
     sideBar {
