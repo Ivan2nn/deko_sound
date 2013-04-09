@@ -32,12 +32,8 @@ p {
 	}
 
 #fb-box {
-	width:200px;
-	top:480px;
-	left:180px;
-	position:fixed;
-	z-index : 100;
-	background-color:#fff;
+	float:left;
+	background-color:white;
 	}
 	
 .sideBar {
@@ -86,6 +82,7 @@ p {
             color: white;
 			font-family: 'Oxygen', sans-serif;
 			font-weight:300;
+			display:block;
         }
 
         .sideBar ul li a:visited {
@@ -136,6 +133,13 @@ p {
     left: 500px;
     padding: 20px;
 }
+
+.company-text {
+	float:left;
+	margin-right: 15px;
+    width: 420px;
+	
+	}
 
 .reference:first-child {
 	margin-bottom:40px;
@@ -222,3 +226,5 @@ p {
         padding: 10px;
     }
 }
+
+.active { background-color:black;}

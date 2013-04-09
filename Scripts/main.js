@@ -32,10 +32,19 @@
         $("#palvelut, #palvelut2").attr("src", "Images/palvelut_1280x850.jpg");
 		$("#referenssit").attr("src", "Images/referenssit_1280x850.jpg");
 		$("#yhteys").attr("src", "Images/yhteys_1280x850.jpg");
-
+		
+		
         $('.sideBar a').click(function () {
+			
+			if($('.sideBar li').hasClass('active')) {		
+				$('.sideBar li').removeClass('active');
+			} 	
+				
+			$(this).parent('li').addClass('active');
             $.scrollTo(this.hash, 1500, { easing: 'swing' });
             return false;
+			
+			
         });
     });
 
