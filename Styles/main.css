@@ -16,7 +16,7 @@ p {
 	font-family: 'Oxygen', sans-serif;
 	font-weight:300;
 	font-size:1em;
-	line-height:1.4em;
+	line-height:1em;
 	margin-bottom:30px;
 }
 
@@ -24,15 +24,6 @@ p {
 
 .clearfix { clear:both; height:0;}
 
-<<<<<<< HEAD
-#fb-box {
-	float:left;
-	background-color:white;
-	}
-
-
-=======
->>>>>>> 4cc3495d3ce5bb1921ef20ebd5abcdf13757e9ab
 .sideBar {
     top: 120px;
     left: 180px;    
@@ -85,10 +76,6 @@ p {
         .sideBar ul li a:visited {
             color: white;
         }
-		
-		.sideBar img {
-			padding:25px 0 0 3px;
-			}
 
 
 .container {
@@ -143,9 +130,10 @@ p {
 
 .company-text {
 	float:left;
-	margin-right: 20px;
-	width: 380px;
-}
+	margin-right: 15px;
+    width: 420px;
+	
+	}
 
 .reference:first-child {
 	margin-bottom:40px;
@@ -160,12 +148,11 @@ p {
 	}
 
 .reference .text {
-	width:640px;
+	width:340px;
 	float:left;
 	}
 
 .reference .image {
-	display: none;
 	width:290px;
 	float:left;
 	height:250px;
@@ -173,45 +160,42 @@ p {
 	margin-right:15px;
 	}
 	
-#section6 .map, #section6 .contact {
+#section5 .map, #section5 .contact {
 	float:left;
 	}
 	
-#section6 .map {
+#section5 .map {
 	width:290px;
 	margin-right:7px;
 	}
 
-#section6 .contact {
+#section5 .contact {
 	width:345px;
 	}
 
-#section6 .contact h1 {
+#section5 .contact h1 {
 	margin: 0 0 10px 0;
 	font-size:1.125em;
 	}
 	
-#section6 .contact .info-row {
+#section5 .contact .info-row {
 	margin-bottom: 10px;
 	}
 	
-#section6 .contact .info-row img {
-	display:none; 
+#section5 .contact .info-row img {
 	float:left;
 	  margin-right: 10px;
 	}
 	
-#section6 .contact .info-row .info-text {
+#section5 .contact .info-row .info-text {
 	float:left;
 	width:205px;
 	}
 
-#section6 .contact .info-row .info-text p {
+#section5 .contact .info-row .info-text p {
 	padding-top:0;
 	}
 	
-<<<<<<< HEAD
-=======
 @media only screen and (min-width : 320px) and (max-width : 479px) {
     
     sideBar {
@@ -248,4 +232,3 @@ p {
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 300;
 	}
->>>>>>> 4cc3495d3ce5bb1921ef20ebd5abcdf13757e9ab

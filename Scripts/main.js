@@ -23,17 +23,14 @@
         imageObj = new Image();
         imagesArray = new Array();
         imagesArray[0,1] = "Images/palvelut_1280x850.jpg";
-		imagesArray[2] = "Images/kumppanit_1280x850.jpg";
-		imagesArray[3] = "Images/referenssit_1280x850.jpg";
-		imagesArray[4] = "Images/yhteys_1280x850.jpg";
-		
+		imagesArray[2] = "Images/referenssit_1280x850.jpg";
+		imagesArray[3] = "Images/yhteys_1280x850.jpg";
 
         for (var i = 0; i < 2; i++) {
             imageObj.src = imagesArray[i];
         };
 
         $("#palvelut, #palvelut2").attr("src", "Images/palvelut_1280x850.jpg");
-		$("#partnerit").attr("src", "Images/kumppanit_1280x850.jpg");
 		$("#referenssit").attr("src", "Images/referenssit_1280x850.jpg");
 		$("#yhteys").attr("src", "Images/yhteys_1280x850.jpg");
 		
