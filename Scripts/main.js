@@ -1,5 +1,6 @@
 ﻿(function () {
        
+    
 
     var loadImageCache = {}
     var loadImage = function (imageSrc) {
@@ -43,11 +44,15 @@
 			$(this).parent('li').addClass('active');
             $.scrollTo(this.hash, 1500, { easing: 'swing' });
             return false;
-			
-			
         });
+
+        
     });
 
-    
+    $(window).scroll(function () {
+        //alert(2);
+        var $win = $(window);
+        $('.sideBar').css('left', 180 - $win.scrollLeft());
+    });
 
 })();
