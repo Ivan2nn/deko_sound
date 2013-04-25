@@ -16,31 +16,23 @@ p {
 	font-family: 'Oxygen', sans-serif;
 	font-weight:300;
 	font-size:1em;
-	line-height:1em;
+	line-height:1.4em;
 	margin-bottom:30px;
 }
 
+.bold { font-weight: 700;}
+
 .clearfix { clear:both; height:0;}
 
-.notification {
-	font-size:1em;
-	}
-
-.notification2 {
-	text-align:center;
-	font-weight:700;
-	}
-	
-.first {
-	margin: 50px 0 10px 0;
-	}
-
+<<<<<<< HEAD
 #fb-box {
 	float:left;
 	background-color:white;
 	}
 
 
+=======
+>>>>>>> 4cc3495d3ce5bb1921ef20ebd5abcdf13757e9ab
 .sideBar {
     top: 120px;
     left: 180px;    
@@ -93,6 +85,10 @@ p {
         .sideBar ul li a:visited {
             color: white;
         }
+		
+		.sideBar img {
+			padding:25px 0 0 3px;
+			}
 
 
 .container {
@@ -147,10 +143,9 @@ p {
 
 .company-text {
 	float:left;
-	margin-right: 15px;
-    width: 420px;
-	
-	}
+	margin-right: 20px;
+	width: 380px;
+}
 
 .reference:first-child {
 	margin-bottom:40px;
@@ -165,11 +160,12 @@ p {
 	}
 
 .reference .text {
-	width:340px;
+	width:640px;
 	float:left;
 	}
 
 .reference .image {
+	display: none;
 	width:290px;
 	float:left;
 	height:250px;
@@ -177,39 +173,79 @@ p {
 	margin-right:15px;
 	}
 	
-#section5 .map, #section5 .contact {
+#section6 .map, #section6 .contact {
 	float:left;
 	}
 	
-#section5 .map {
+#section6 .map {
 	width:290px;
 	margin-right:7px;
 	}
 
-#section5 .contact {
+#section6 .contact {
 	width:345px;
 	}
 
-#section5 .contact h1 {
+#section6 .contact h1 {
 	margin: 0 0 10px 0;
 	font-size:1.125em;
 	}
 	
-#section5 .contact .info-row {
+#section6 .contact .info-row {
 	margin-bottom: 10px;
 	}
 	
-#section5 .contact .info-row img {
+#section6 .contact .info-row img {
+	display:none; 
 	float:left;
 	  margin-right: 10px;
 	}
 	
-#section5 .contact .info-row .info-text {
+#section6 .contact .info-row .info-text {
 	float:left;
 	width:205px;
 	}
 
-#section5 .contact .info-row .info-text p {
+#section6 .contact .info-row .info-text p {
 	padding-top:0;
 	}
 	
+<<<<<<< HEAD
+=======
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+    
+    sideBar {
+        top:auto;
+        bottom: 10%;
+        left: 50%;
+        margin-left: -110px;
+        background-color: rgb(0,186,242);
+        width: 220px;
+        position: fixed;
+        z-index : 100;
+        padding: 5px;
+    }
+
+    .info {
+        color: white;
+        position: absolute;
+        width: 340px;
+        top: 20%;
+        left: 50%;
+        margin-left: -170px;
+        padding: 10px;
+    }
+}
+
+.active { background-color:black;}
+
+#section3 ul li { padding-bottom:30px;}
+
+#section6 .small { margin-bottom:0;}
+#section6 a { 
+	color:#fff; 
+	text-decoration:none; 
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 300;
+	}
+>>>>>>> 4cc3495d3ce5bb1921ef20ebd5abcdf13757e9ab
