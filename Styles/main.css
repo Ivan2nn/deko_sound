@@ -15,9 +15,9 @@ h1 {
 p { 
 	font-family: 'Oxygen', sans-serif;
 	font-weight:300;
-	font-size:1em;
-	line-height:1em;
-	margin-bottom:30px;
+	font-size:0.9em;
+	line-height:1.4em;
+	margin-bottom:20px;
 }
 
 .bold { font-weight: 700;}
@@ -25,12 +25,13 @@ p {
 .clearfix { clear:both; height:0;}
 
 .sideBar {
-    top: 120px;
     left: 180px;    
-    z-index : 100;
-    width: 190px;
-    position: fixed;   
+    top: 55px;
+    left: 180px;
     background-color: rgb(0,186,242);
+    width: 190px;
+    position: fixed;
+    z-index : 100;   
     padding: 5px 5px 10px 5px;
 }
 	.sideBar .logo {
@@ -65,7 +66,7 @@ p {
         }
 
         .sideBar ul li a {
-			font-size:1.125em;
+			font-size:1em;
             text-decoration: none;
             color: white;
 			font-family: 'Oxygen', sans-serif;
@@ -123,7 +124,7 @@ p {
     color: white;
     position: absolute;
     width: 645px;
-    top: 120px;
+    top: 55px;
     left: 500px;
     padding: 20px;
 }
@@ -134,6 +135,9 @@ p {
     width: 420px;
 	
 	}
+	margin-right: 20px;
+	width: 365px;
+}
 
 .reference:first-child {
 	margin-bottom:40px;
@@ -223,7 +227,7 @@ p {
 
 .active { background-color:black;}
 
-#section3 ul li { padding-bottom:30px;}
+#section3 ul li { padding-bottom:12px;}
 
 #section6 .small { margin-bottom:0;}
 #section6 a { 
